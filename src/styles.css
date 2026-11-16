@@ -1,0 +1,72 @@
+body {
+    color: #f5f7fa;
+    background-color: #21232b;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #241e2c;
+    align-items: right;
+    margin: 0;
+    margin-left: -20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    margin-left: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.search {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10vh;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.search input {
+    font-size: 32pt;
+}
+
+.addButtonSection {
+    margin: 50px;
+    padding: 10px;
+    margin-top: 0;
+    background-color: #202d4b;
+    text-align: center;
+    border: 1px solid #dce3ea;
+    border-radius: 10px;
+}
+
+.countdownDisplay {
+    max-width: 80vh;
+}
+
+.countdownList {
+    width: 80vw;
+    display: grid;
+    /*grid-template-columns: repeat(3, minmax(0, 1fr));*/
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 8px
+}
+
+.countdownCard {
+    padding: 8px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #dce3ea;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(63, 130, 202, 0.447);
+    transition: transform 0.5s ease, box-shadow 0.2s ease;
+    margin: 8px
+}
+
+.countdownCard:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(36, 59, 83, 0.14);
+}
