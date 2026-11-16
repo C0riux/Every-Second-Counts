@@ -1,0 +1,24 @@
+{
+  "name": "every-second-counts",
+  "version": "1.0.0",
+  "description": "Final Assignment for Software Development - Every Second Counts is a webpage that allows users to create and keep track of upcoming deadlines. Intended to replace the user's new tab page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C0riux/Every-Second-Counts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/C0riux/Every-Second-Counts/issues"
+  },
+  "homepage": "https://github.com/C0riux/Every-Second-Counts#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}

@@ -21,21 +21,23 @@
         </section>
 
         <section class="addButtonSection">
-            <form method="" action="">
-                <input type="button" name="addButton" value="Add A Countdown">
+            <form>
+                <input type="button" id="addButton" value="Add A Countdown">
             </form>
-            <form method="" action="">
+            <form id="new-countdown-form">
                 <p>Countdown Label</p>
-                <input type="text" name="countdownLabel" placeholder="My Countdown">
+                <input type="text" id="countdownLabel" placeholder="My Countdown">
                 <p>Calendar Date of Deadline</p>
-                <input type="text" name="countdownDate" placeholder="MM/DD/YYYY">
+                <input type="text" id="countdownDate" placeholder="YYYY-MM-DD">
                 <p>Time of Day of Deadline, 24-hour Clock</p>
-                <input type="text" name="countdownDate" placeholder="HH:MM:SS">
+                <input type="text" id="countdownTime" placeholder="HH:MM:SS">
+                <input type="submit" id="submitButton" value="Add New Countdown">
+                <p id="feedbackText">feedback</p>
             </form>
         </section>
 
         <section class="countdownDisplay">
-            <div class="countdownList">
+            <div class="countdownList" id="countdownList">
                 <div class="countdownCard">
                     <h2>Countdown Name</h2>
                     <p>test entry2</p>
