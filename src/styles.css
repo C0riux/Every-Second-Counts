@@ -38,13 +38,15 @@ header h1 {
     padding: 10px;
     margin-top: 0;
     background-color: #202d4b;
+    /*input elements also respect text-align, making it a stupidly simple solution to the fleeting problem of
+    "How do I center a div?"*/
     text-align: center;
     border: 1px solid #dce3ea;
     border-radius: 10px;
 }
 
 .countdownDisplay {
-    max-width: 80vh;
+    max-width: 80vw;
 }
 
 .countdownList {

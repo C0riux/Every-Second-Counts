@@ -16,6 +16,10 @@
     <main>
         <section class="search">
             <form method="get" action="https://www.google.com/search">
+                <!--Using the "get" method will append input to the end of
+                the action URL using the scheme "?[input-name]=[value]"
+                It also triggers the form to enact its method immediately upon Enter being pressed
+                This allows us to simply create a search box without any javascript at all!-->
                 <input type="text" name="q" placeholder="Search with Google...">
             </form>
         </section>
@@ -24,6 +28,10 @@
             <form>
                 <input type="button" id="addButton" value="Add A Countdown">
             </form>
+            <!--Javascript will later be implemented to collapse this HTML
+            and uncollapse it using the button above
+            Since the user won't need to constantly make new timers
+            That space is better allocated to preexisting ones!-->
             <form id="new-countdown-form">
                 <p>Countdown Label</p>
                 <input type="text" id="countdownLabel" placeholder="My Countdown">
@@ -38,6 +46,8 @@
 
         <section class="countdownDisplay">
             <div class="countdownList" id="countdownList">
+                <!--Temporarily hardcoded HTML to mimick functionality for MVP prototype
+                TO BE REMOVED-->
                 <div class="countdownCard">
                     <h2>Countdown Name</h2>
                     <p>test entry2</p>
@@ -60,7 +70,7 @@
     </main>
 
     <footer>
-
+        <!--Uncertain what to place in the footer, may remove later.-->
     </footer>
 </body>
 </html>
